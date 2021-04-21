@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Fullname"
+        android:layout_width="match_parent"
+        android:hint="Full Name"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:hint="Username"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Emailaddress"
+        android:layout_width="match_parent"
+        android:hint="Email Address"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Confirmpassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="Confirm Password"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Mobilenumber"
+        android:layout_width="match_parent"
+        android:hint="Mobile Number"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Cardnumber"
+        android:layout_width="match_parent"
+        android:hint="Card Number"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Cvv"
+        android:layout_width="match_parent"
+        android:hint="CVV"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Expirationdate"
+        android:layout_width="match_parent"
+        android:hint="Expiration Date"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="match_parent"
+        android:hint="Gender"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Birthdate"
+        android:layout_width="match_parent"
+        android:hint="Birth Date"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
