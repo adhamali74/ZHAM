@@ -10,16 +10,19 @@
         android:id="@+id/Fullname"
         android:layout_width="match_parent"
         android:hint="Full Name"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="text" />
     <EditText
         android:id="@+id/Username"
         android:layout_width="match_parent"
         android:hint="Username"
+        android:inputType="text"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Emailaddress"
         android:layout_width="match_parent"
         android:hint="Email Address"
+        android:inputType="textEmailAddress"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/password"
@@ -37,31 +40,37 @@
         android:id="@+id/Mobilenumber"
         android:layout_width="match_parent"
         android:hint="Mobile Number"
+        android:inputType="number"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Cardnumber"
         android:layout_width="match_parent"
         android:hint="Card Number"
+        android:inputType="number"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Cvv"
         android:layout_width="match_parent"
         android:hint="CVV"
+        android:inputType="numberPassword"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Expirationdate"
         android:layout_width="match_parent"
         android:hint="Expiration Date"
+        android:inputType="date"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Gender"
         android:layout_width="match_parent"
         android:hint="Gender"
+        android:inputType="textShortMessage"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Birthdate"
         android:layout_width="match_parent"
         android:hint="Birth Date"
+        android:inputType="date"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/Save"
