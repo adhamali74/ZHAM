@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         registration.setOnClickListener(){
             showRegistration()
         }
-        Back.setOnClickListener(){
+        Backbtn.setOnClickListener(){
             backHome()
         }
         Forgotpasswordbtn.setOnClickListener(){
