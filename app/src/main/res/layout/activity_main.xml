@@ -92,6 +92,8 @@
 
     </LinearLayout>
 
+
+
     <include
         android:id="@+id/Registrationlayout"
         android:visibility="gone"
@@ -101,6 +103,6 @@
         android:visibility="gone"
         layout="@layout/forget_password"/>
 
-    
+
 
 </LinearLayout>
