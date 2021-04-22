@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
 
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:id="@+id/Home"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Z H A M"
+            android:text="@string/z_h_a_m"
             android:layout_gravity="center"
             android:textColor="@android:color/black"
             android:textSize="50dp"
@@ -33,7 +33,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded_border"
             android:gravity="center"
-            android:hint="username"
+            android:hint="@string/username"
             android:textColorHint="@color/black" />
 
         <EditText
@@ -43,7 +43,7 @@
             android:background="@drawable/rounded_border"
             android:gravity="center"
             android:layout_marginTop="20dp"
-            android:hint="password"
+            android:hint="@string/password"
             android:inputType="textWebPassword"
             android:textColorHint="@color/black" />
 
@@ -54,7 +54,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded_button"
-            android:text="LOGIN"
+            android:text="@string/login"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -64,13 +64,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Forgot Password ?"
+            android:text="@string/forgot_password"
+            android:textStyle="bold"
             android:textColor="@color/black" />
         <Button
             android:id="@+id/Forgotpasswordbtn"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
-            android:text="Reset Password"
+            android:text="@string/reset_password"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_height="wrap_content"/>
@@ -79,13 +80,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Need to Register ?"
+            android:text="@string/need_to_register"
+            android:textStyle="bold"
             android:textColor="@color/black" />
         <Button
             android:id="@+id/registration"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
-            android:text="REGISTER"
+            android:text="@string/register"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_height="wrap_content"/>

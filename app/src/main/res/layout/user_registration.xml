@@ -9,74 +9,74 @@
     <EditText
         android:id="@+id/Fullname"
         android:layout_width="match_parent"
-        android:hint="Full Name"
+        android:hint="@string/full_name"
         android:layout_height="wrap_content"
         android:inputType="text" />
     <EditText
         android:id="@+id/Username"
         android:layout_width="match_parent"
-        android:hint="Username"
+        android:hint="@string/username1"
         android:inputType="text"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Emailaddress"
         android:layout_width="match_parent"
-        android:hint="Email Address"
+        android:hint="@string/email_address"
         android:inputType="textEmailAddress"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:hint="Password"
+        android:hint="@string/password1"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Confirmpassword"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:hint="Confirm Password"
+        android:hint="@string/confirm_password"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Mobilenumber"
         android:layout_width="match_parent"
-        android:hint="Mobile Number"
+        android:hint="@string/mobile_number"
         android:inputType="number"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Cardnumber"
         android:layout_width="match_parent"
-        android:hint="Card Number"
+        android:hint="@string/card_number"
         android:inputType="number"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Cvv"
         android:layout_width="match_parent"
-        android:hint="CVV"
+        android:hint="@string/cvv"
         android:inputType="numberPassword"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Expirationdate"
         android:layout_width="match_parent"
-        android:hint="Expiration Date"
+        android:hint="@string/expiration_date"
         android:inputType="date"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Gender"
         android:layout_width="match_parent"
-        android:hint="Gender"
+        android:hint="@string/gender"
         android:inputType="textShortMessage"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/Birthdate"
         android:layout_width="match_parent"
-        android:hint="Birth Date"
+        android:hint="@string/birth_date"
         android:inputType="date"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/Save"
         android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:text="REGISTER"
+        android:text="@string/register"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_height="wrap_content"/>
@@ -84,7 +84,7 @@
         android:id="@+id/Back"
         android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:text="Back"
+        android:text="@string/back"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_height="wrap_content"/>
