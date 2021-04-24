@@ -1,107 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
     android:gravity="center"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
 
-    <LinearLayout
-        android:id="@+id/Home"
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zham_logo" />
+
+    <EditText
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="296dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textWebPassword"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/LOGIN"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/login"
+        android:onClick="login"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:text="@string/forgot_password"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/z_h_a_m"
-            android:layout_gravity="center"
-            android:textColor="@android:color/black"
-            android:textSize="50dp"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/Forgotpasswordbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="forgetPassword"
+        android:text="@string/reset_password"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
-        <EditText
-            android:layout_width="294dp"
-            android:layout_height="49dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rounded_border"
-            android:gravity="center"
-            android:hint="@string/username"
-            android:textColorHint="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/need_to_register"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
-        <EditText
-            android:layout_width="296dp"
-            android:layout_height="47dp"
-            android:layout_gravity="center"
-            android:background="@drawable/rounded_border"
-            android:gravity="center"
-            android:layout_marginTop="20dp"
-            android:hint="@string/password"
-            android:inputType="textWebPassword"
-            android:textColorHint="@color/black" />
-
-        <Button
-            android:id="@+id/LOGIN"
-            android:layout_width="232dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/rounded_button"
-            android:text="@string/login"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/forgot_password"
-            android:textStyle="bold"
-            android:textColor="@color/black" />
-        <Button
-            android:id="@+id/Forgotpasswordbtn"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/reset_password"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/need_to_register"
-            android:textStyle="bold"
-            android:textColor="@color/black" />
-        <Button
-            android:id="@+id/registration"
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/register"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
-    <include
-        android:id="@+id/Registrationlayout"
-        android:visibility="gone"
-        layout="@layout/user_registration"/>
-    <include
-        android:id="@+id/Forgetpassword"
-        android:visibility="gone"
-        layout="@layout/forget_password"/>
-
-
-
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:onClick="register"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 
 </LinearLayout>
