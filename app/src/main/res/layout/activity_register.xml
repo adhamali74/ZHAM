@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_margin="10dp"
     android:orientation="vertical"
     android:background="@color/background"
     tools:context=".ui.RegisterActivity">
@@ -13,13 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/full_name"
+        android:textColorHint="@color/white"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/username1"
+        android:hint="@string/username_registration"
+        android:textColorHint="@color/white"
         android:inputType="text" />
 
     <EditText
@@ -27,13 +28,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email_address"
+        android:textColorHint="@color/white"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/password1"
+        android:hint="@string/password_registration"
+        android:textColorHint="@color/white"
         android:inputType="textPassword" />
 
     <EditText
@@ -41,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/confirm_password"
+        android:textColorHint="@color/white"
         android:inputType="textPassword" />
 
     <EditText
@@ -48,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/mobile_number"
+        android:textColorHint="@color/white"
         android:inputType="number" />
 
     <EditText
@@ -55,6 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/card_number"
+        android:textColorHint="@color/white"
         android:inputType="number" />
 
     <EditText
@@ -62,6 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/cvv"
+        android:textColorHint="@color/white"
         android:inputType="numberPassword" />
 
     <EditText
@@ -69,6 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/expiration_date"
+        android:textColorHint="@color/white"
         android:inputType="date" />
 
     <EditText
@@ -76,6 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/gender"
+        android:textColorHint="@color/white"
         android:inputType="textShortMessage" />
 
     <EditText
@@ -83,6 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/birth_date"
+        android:textColorHint="@color/white"
         android:inputType="date" />
 
     <Button
@@ -94,14 +104,7 @@
         android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/Backbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/back"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
+
 
 
 </LinearLayout>

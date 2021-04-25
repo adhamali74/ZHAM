@@ -22,4 +22,6 @@
     <string name="full_name">Full Name</string>
     <string name="enter_your_email_address">Enter Your Email Address</string>
     <string name="back_to_login">Back to Login</string>
+    <string name="username_registration">Username</string>
+    <string name="password_registration">Password</string>
 </resources>
