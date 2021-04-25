@@ -23,18 +23,22 @@ class AppIntroActivity : AppIntro2() {
         }
         addSlide(
             AppIntroFragment.newInstance(
-                SliderPage(
-                    "Locate A car around the city.see car availability on the map and book it through the app",
+                    "Move With Safety",
+                "Get Started",
+                    titleColor=Color.WHITE,
+                    descriptionColor = Color.WHITE,
                     imageDrawable = R.drawable.zham_logo,
                     backgroundColor = resources.getColor(R.color.background)
                 )
             )
-        )
+
         addSlide(
             AppIntroFragment.newInstance(
-                "Portable drawing board",
-                "White and Black Boards",
-                imageDrawable = R.drawable.zham_logo,
+                "BOOK",
+                "Locate A car around the city.see car availability on the map and book it through the app",
+                imageDrawable = R.drawable.book,
+                titleColor=Color.WHITE,
+                descriptionColor = Color.WHITE,
                 backgroundColor = resources.getColor(R.color.background)
             )
         )
@@ -42,9 +46,11 @@ class AppIntroActivity : AppIntro2() {
         addSlide(
             AppIntroFragment.newInstance(
                 SliderPage(
-                    "Record and Listen",
-                    " ",
-                    imageDrawable = R.drawable.zham_logo,
+                    "UNLOCK",
+                    "Use QR Code that Sent to your Mobile Via the App,unlock the Car,Billing start when the car is unlocked ",
+                    imageDrawable = R.drawable.unlock,
+                    titleColor=Color.WHITE,
+                    descriptionColor = Color.WHITE,
                     backgroundColor = resources.getColor(R.color.purple_700)
                 )
             )
@@ -52,9 +58,11 @@ class AppIntroActivity : AppIntro2() {
 
         addSlide(
             AppIntroFragment.newInstance(
-                "Day and Night Theme",
-                " ",
-                imageDrawable = R.drawable.zham_logo,
+                "RIDE",
+                "Enjoy your Ride,When you finished your ride just park the car in any nearby garage and lock the car to stop the billing from App ",
+                imageDrawable = R.drawable.ride,
+                titleColor=Color.WHITE,
+                descriptionColor = Color.WHITE,
                 backgroundColor = resources.getColor(R.color.teal_200)
             )
         )
@@ -68,6 +76,17 @@ class AppIntroActivity : AppIntro2() {
         setImmersiveMode()
         setTransformer(AppIntroPageTransformerType.Parallax())
 
+     /*   askForPermissions(
+            permissions = arrayOf(
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_MEDIA_LOCATION,
+                Manifest.permission.CAMERA
+            ),
+            slideNumber = 4,
+            required = false
+        )
+
+      */
     }
 
     public override fun onSkipPressed(currentFragment: Fragment?) {
@@ -82,7 +101,7 @@ class AppIntroActivity : AppIntro2() {
         }
     }
 
-    override fun onUserDeniedPermission(permissionName: String) = Unit
+    override fun onUserDeniedPermission(permissionName: String) {}
 
-    override fun onUserDisabledPermission(permissionName: String) = Unit
+    override fun onUserDisabledPermission(permissionName: String) {}
 }
