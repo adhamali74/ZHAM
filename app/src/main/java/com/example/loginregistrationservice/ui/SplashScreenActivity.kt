@@ -15,6 +15,7 @@ class SplashScreenActivity : Activity() {
             Intent(this, AppIntroActivity::class.java).apply {
                 startActivity(this)
             }
+
         }, 1000)
     }
 }

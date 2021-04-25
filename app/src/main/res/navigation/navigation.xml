@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashScreenActivity">
+
+    <fragment
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.loginregistrationservice.ui.SplashScreenActivity"
+        android:label="SplashScreenActivity"
+        tools:layout="@layout/activity_splash_screen">
+        <action
+            android:id="@+id/action_splashScreenActivity_to_appIntroActivity"
+            app:destination="@id/appIntroActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/appIntroActivity"
+        android:name="com.example.loginregistrationservice.ui.AppIntroActivity"
+        android:label="AppIntroActivity"
+        tools:layout="@layout/appintro_fragment_intro">
+        <action
+            android:id="@+id/action_appIntroActivity_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainActivity"
+        android:name="com.example.loginregistrationservice.ui.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/activity_main">
+        <action
+            android:id="@+id/action_mainActivity_to_registerActivity"
+            app:destination="@id/registerActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerActivity"
+        android:name="com.example.loginregistrationservice.ui.RegisterActivity"
+        android:label="RegisterActivity"
+        tools:layout="@layout/activity_register">
+        <action
+            android:id="@+id/action_registerActivity_to_forgetPasswordActivity"
+            app:destination="@id/forgetPasswordActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPasswordActivity"
+        android:name="com.example.loginregistrationservice.ui.ForgetPasswordActivity"
+        android:label="ForgetPasswordActivity"
+        tools:layout="@layout/activity_forget_password"/>
+</navigation>

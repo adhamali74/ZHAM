@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/mobile_number"
         android:textColorHint="@color/white"
-        android:inputType="number" />
+        android:inputType="phone" />
 
     <EditText
         android:id="@+id/Cardnumber"
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/expiration_date"
         android:textColorHint="@color/white"
-        android:inputType="date" />
+        android:inputType="datetime" />
 
     <EditText
         android:id="@+id/Gender"
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/birth_date"
         android:textColorHint="@color/white"
-        android:inputType="date" />
+        android:inputType="datetime" />
 
     <Button
         android:id="@+id/Save"
