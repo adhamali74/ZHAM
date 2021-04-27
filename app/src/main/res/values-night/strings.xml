@@ -24,4 +24,5 @@
     <string name="back_to_login">Back to Login</string>
     <string name="username_registration">Username</string>
     <string name="password_registration">Password</string>
+    <string name="submit">Submit</string>
 </resources>
