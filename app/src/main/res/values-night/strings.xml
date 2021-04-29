@@ -25,4 +25,5 @@
     <string name="username_registration">Username</string>
     <string name="password_registration">Password</string>
     <string name="submit">Submit</string>
+    <string name="already_have_an_account2">Already_have_an_account</string>
 </resources>

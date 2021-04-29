@@ -7,6 +7,15 @@
     android:orientation="vertical"
     android:background="@color/background"
     tools:context=".ui.RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE AN ACOOUNT"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
 
     <EditText
         android:id="@+id/Fullname"
@@ -96,6 +105,7 @@
         android:textColorHint="@color/white"
         android:inputType="datetime" />
 
+
     <Button
         android:id="@+id/Save"
         android:layout_width="332dp"
@@ -104,11 +114,12 @@
         android:text="@string/register"
         android:textColor="@color/black"
         android:textStyle="bold" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="you already have an account?"
+        android:text="@string/already_have_an_account2"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
