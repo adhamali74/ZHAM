@@ -104,6 +104,25 @@
         android:text="@string/register"
         android:textColor="@color/black"
         android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="you already have an account?"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login_back_from_reg"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:onClick="login"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
 
 </LinearLayout>
 

@@ -22,7 +22,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_border"
         android:gravity="center"
-        android:hint="@string/username"
+        android:hint="Email ID"
         android:textColorHint="@color/black" />
 
     <EditText
@@ -50,13 +50,6 @@
         android:textStyle="bold" />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/forgot_password"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
 
     <Button
         android:id="@+id/Forgotpasswordbtn"
@@ -72,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/need_to_register"
+        android:text="@string/don_t_have_an_account"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
