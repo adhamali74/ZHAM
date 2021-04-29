@@ -26,4 +26,15 @@
     <string name="password_registration">Password</string>
     <string name="submit">Submit</string>
     <string name="already_have_an_account2">Already_have_an_account</string>
+    <string name="err_msg_enter_first_name">Please Enter Email ID</string>
+    <string name="err_msg_enter_user_name">Please Enter Username</string>
+    <string name="err_msg_enter_Password">Please Enter A Password</string>
+    <string name="err_msg_enter_confirm_Password">Please Confirm Your Password</string>
+    <string name="suucessful_registration">Registery Successfull</string>
+    <string name="already_have_an_account3">Already have an account</string>
+    <string name="err_msg_enter_Mobile_no">Please Enter Your Mobile Number</string>
+    <string name="err_msg_enter_card_no">Please Enter Your Card Number</string>
+    <string name="err_msg_enter_cvv_no">Please Enter the Cvv Number for your Card</string>
+    <string name="err_msg_enter_expiration_date">"Please Enter the Expiration Date for your card "</string>
+    <string name="err_msg_enter_checkbox"><![CDATA[You Must Apply for terms & Conditions]]></string>
 </resources>

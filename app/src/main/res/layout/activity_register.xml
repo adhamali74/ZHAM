@@ -104,10 +104,21 @@
         android:hint="@string/birth_date"
         android:textColorHint="@color/white"
         android:inputType="datetime" />
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:shadowColor="@color/black"
+        android:layout_gravity="center"
+        android:outlineSpotShadowColor="@color/black"
+        android:buttonTint="@color/black"
+        android:text="I Agree to the Terms and Conditioms"/>
 
 
     <Button
-        android:id="@+id/Save"
+        android:id="@+id/Save_on_registration"
         android:layout_width="332dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -119,7 +130,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/already_have_an_account2"
+        android:text="@string/already_have_an_account3"
         android:textColor="@color/black"
         android:textStyle="bold" />
 

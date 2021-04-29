@@ -24,8 +24,11 @@ private lateinit var binding:ActivityMainBinding
     fun register(view: View) {
         Intent(this, RegisterActivity::class.java).apply {
             startActivity(this)
+
         }
+
     }
+
 
     fun forgetPassword(view: View) {
         Intent(this, ForgetPasswordActivity::class.java).apply {
