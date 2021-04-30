@@ -114,7 +114,7 @@
         android:layout_gravity="center"
         android:outlineSpotShadowColor="@color/black"
         android:buttonTint="@color/black"
-        android:text="I Agree to the Terms and Conditioms"/>
+        android:text="@string/i_agree_to_the_terms_and_conditions"/>
 
 
     <Button

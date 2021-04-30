@@ -42,4 +42,5 @@
     <string name="err_msg_enter_expiration_date">"Please Enter the Expiration Date for your card "</string>
     <string name="err_msg_enter_checkbox"><![CDATA[You Must Apply for terms & Conditions]]></string>
     <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="i_agree_to_the_terms_and_conditions">I Agree to the Terms and Conditions</string>
 </resources>
